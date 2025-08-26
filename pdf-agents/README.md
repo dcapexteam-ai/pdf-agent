@@ -21,14 +21,12 @@ A modern web app to process PDF and image documents in the browser:
 
 ## Getting Started
 
-1) Create the project directory and add files from this repo (or copy file blocks from the chat).
-
-2) Install dependencies:
+1) Install dependencies:
 ```bash
 npm install
 ```
 
-3) Configure environment variables (optional to enable Microsoft Graph integration):
+2) Configure environment variables (optional to enable Microsoft Graph integration):
 - Copy `.env.example` to `.env` and set values:
   - VITE_AZURE_CLIENT_ID: Your Azure AD app (SPA) Client ID
   - VITE_AZURE_TENANT_ID: Your tenant ID (or "common")
@@ -40,12 +38,12 @@ Make sure your Azure AD app is configured as SPA with redirect URI and permissio
   - offline_access, openid, profile
 Grant admin consent in Azure Portal.
 
-4) Run the dev server:
+3) Run the dev server:
 ```bash
 npm run dev
 ```
 
-5) Open the app at the printed local URL (e.g. http://localhost:5173).
+4) Open the app at the printed local URL (e.g. http://localhost:5173).
 
 ## Notes and Limitations
 
